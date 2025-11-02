@@ -1,0 +1,23 @@
+/* docs/css/fonts.css - para Papers, Please localization on GitHub Pages */
+
+/* fallback para tiny */
+@font-face { font-family: 'fallback-tiny-kr'; src: url('https://echoul.github.io/Project1/fonts/GothicA1-Regular.ttf') format('truetype'); }
+.font-tiny { font-family: 'tiny', 'fallback-tiny-kr', sans-serif; font-size: 8px; line-height: 8px; }
+
+/* fallback para regular (cuerpo y UI) */
+@font-face { font-family: 'fallback-regular-kr'; src: url('https://echoul.github.io/Project1/fonts/GothicA1-Regular.ttf') format('truetype'); }
+.font-regular, body { font-family: 'regular', 'fallback-regular-kr', sans-serif; font-size: 8px; line-height: 8px; }
+
+/* fallback para titulares grandes */
+@font-face { font-family: 'fallback-large-kr'; src: url('https://echoul.github.io/Project1/fonts/GothicA1-Regular.ttf') format('truetype'); }
+.font-large { font-family: 'large', 'fallback-large-kr', sans-serif; font-size: 8px; line-height: 10px; }
+
+/* fallback para UI minor */
+@font-face { font-family: 'fallback-ui-kr'; src: url('https://echoul.github.io/Project1/fonts/Pretendard-Regular.ttf') format('truetype'); }
+.font-ui_regular { font-family: 'ui_regular', 'fallback-ui-kr', sans-serif; font-size: 8px; line-height: 8px; }
+
+body {
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+    text-rendering: optimizeSpeed !important;
+}
